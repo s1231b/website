@@ -1,0 +1,94 @@
+      *{
+            box-sizing: border-box;
+/*            border: 1px solid gray;*/
+            cursor: url(/img/cursor.png), default;
+        }
+        
+        a:hover{
+            cursor: url(/img/cursor1.png),default;
+        }
+        
+        .site_header a{
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .site_header a:hover{
+            border-bottom: 1px solid white;
+            color: white;
+        }
+        
+        
+        body{
+            background-color: rgba(86, 60, 40,0.9);
+        }
+        
+        .header_text{
+            position: fixed;
+            top: 35px;
+            left: 35px;
+            font-size: 1.6rem;
+            z-index: 1;
+            font-weight: 100;
+            font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+        }
+        
+        .navigation{
+            position: fixed;
+            top: 35px;
+            right: 35px;
+            font-size: 1.6rem;
+            font-weight: 100;
+            font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+            z-index: 1;
+        }
+        
+        .navigation div{
+            display: inline-block;
+        }
+        
+        .navigation .menu{
+            margin-left: 1.5rem;
+        }
+        
+
+        .column{
+/*            border: 1px solid black;*/
+            margin-bottom: 7rem;
+        }
+        
+        .wrap{
+            margin-top: 150px;
+            margin-left: 90px;
+            margin-right: 90px;
+            margin-bottom: 150px;
+        }
+        
+        img{
+            width: 100%;
+        }
+        
+        div .thumb img:hover{
+           cursor: url(/img/cursor1.png),default;
+           -webkit-filter: gryascale(1);
+           filter: grayscale(1);
+           opacity: 0.5;
+           transition: all .5s ease;
+        }
+        
+        h1{
+            font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+            color: white;
+        }
+        
+        h2{
+            font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+            color: white;
+        }
+        
+        h3{
+            font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+            color: white;
+        }
+
